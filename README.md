@@ -215,7 +215,6 @@ No defects were identified within the defined testing scope.
 - Positive Testing
 - Negative Testing
 - Input Validation
-- End-to-End Testing
 - Test Execution
 - Test Result Documentation
 - Test Closure
