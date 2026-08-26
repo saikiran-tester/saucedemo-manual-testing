@@ -219,7 +219,7 @@ No defects were identified within the defined testing scope.
 - Test Execution
 - Test Result Documentation
 - Test Closure
-- Defect Analysis
+- Defect Identification & Analysis
 - Microsoft Excel
 - GitHub
 
