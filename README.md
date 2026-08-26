@@ -1,5 +1,4 @@
-# saucedemo-manual-testing
-Manual testing project for SauceDemo covering requirements, test scenarios, test cases, functional testing, validation, test execution, and test closure.
+A structured manual testing project for SauceDemo covering requirement analysis, test scenario design, test case design, functional validation, test execution, and test closure.
 
 # SauceDemo Manual Testing Project
 
@@ -172,7 +171,7 @@ Testing was considered complete for this test cycle.
 - Test Execution
 - Test Result Documentation
 - Test Closure
-- Defect Analysis
+-Defect Identification & Analysis
 - Microsoft Excel
 - GitHub
 
