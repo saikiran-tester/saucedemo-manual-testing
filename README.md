@@ -1,6 +1,6 @@
 # SauceDemo Manual Testing Project
 
-A structured manual testing project performed on the SauceDemo web application to validate key user workflows and core functional behavior.
+A structured manual testing project performed on the SauceDemo web application to validate key user workflows, functional behavior, input validation, and end-to-end shopping functionality.
 
 The project follows a practical QA workflow:
 
@@ -44,9 +44,9 @@ Testing focused on:
 
 ### 🔐 Login
 
-- Valid login
-- Invalid credentials
-- Blank username and password validation
+- Login with valid credentials
+- Login with invalid credentials
+- Validation with blank username and password
 - Username-required validation
 - Password-required validation
 
@@ -55,15 +55,15 @@ Testing focused on:
 - Verify Products page
 - Verify product listing
 - Verify product sorting
-- Name A → Z
-- Name Z → A
-- Price Low → High
-- Price High → Low
-- Add product to cart
+- Sort products by Name A → Z
+- Sort products by Name Z → A
+- Sort products by Price Low → High
+- Sort products by Price High → Low
+- Add products to cart
 
 ### 📦 Product Details
 
-- Access Product Details page
+- Navigate to Product Details
 - Verify selected product information
 - Add product to cart
 - Remove product from cart
@@ -91,7 +91,7 @@ Testing focused on:
 
 ### ☰ Application Menu
 
-- Access menu options
+- Access application menu
 - Logout
 - Reset application state
 - Access About option
@@ -115,15 +115,19 @@ The following testing activities were performed:
 
 ---
 
-## 📋 Project Artifacts
+## 🧭 Test Approach
 
-| File | Description |
-|------|-------------|
-| `01_SauceDemo_Requirements.xlsx` | Requirements and requirement analysis |
-| `02_SauceDemo_Test_Scenarios.xlsx` | Test scenarios derived from requirements |
-| `03_SauceDemo_Test_Cases.xlsx` | Detailed manual test cases |
-| `04_SauceDemo_Test_Execution_Summary.xlsx` | Test execution results and summary |
-| `05_SauceDemo_Test_Closure_Report.xlsx` | Final test closure report |
+Testing was performed using a requirement-driven approach within the available SauceDemo demo environment.
+
+The test design included:
+
+- Functional Testing
+- Positive Testing
+- Negative Testing
+- Input Validation
+- End-to-End Workflow Validation
+
+Test cases were derived from the documented requirements and test scenarios.
 
 ---
 
@@ -135,15 +139,15 @@ The following testing activities were performed:
 | Passed | 28 |
 | Failed | 0 |
 | Blocked | 0 |
-| Confirmed Defects | 0 |
+| Defects Identified | 0 |
 | Pass Percentage | 100% |
 | Overall Result | PASS |
 
 All 28 planned test cases were executed successfully within the defined testing scope.
 
-No confirmed defects were identified during the final test execution cycle.
+No defects were identified during the final test execution cycle.
 
-> **Note:** The 100% pass result applies only to the defined testing scope and test environment. It does not mean that the application is completely defect-free.
+> **Note:** The 100% pass result applies only to the defined testing scope and available test environment. It does not mean that the application is completely defect-free.
 
 ---
 
@@ -155,18 +159,30 @@ The execution results were recorded in the test execution summary.
 
 ---
 
+## 📁 Project Artifacts
+
+| File | Description |
+|------|-------------|
+| `01_SauceDemo_Requirements.xlsx` | Documented requirements and requirement analysis |
+| `02_SauceDemo_Test_Scenarios.xlsx` | Test scenarios derived from requirements |
+| `03_SauceDemo_Test_Cases.xlsx` | Detailed manual test cases with steps and expected results |
+| `04_SauceDemo_Test_Execution_Summary.xlsx` | Test execution results and summary |
+| `05_SauceDemo_Test_Closure_Report.xlsx` | Test closure summary and conclusion |
+
+---
+
 ## ⚠️ Testing Limitations
 
 Testing was limited to the defined functional scope and the available SauceDemo demo environment.
 
-The following areas were not covered:
+The following areas were not covered in this testing cycle:
 
 - Performance Testing
 - Load Testing
 - Stress Testing
 - API Testing
 - Database Testing
-- Full Security Penetration Testing
+- Security Penetration Testing
 - Mobile Application Testing
 - Accessibility Testing
 - Extensive Cross-Browser Testing
@@ -181,9 +197,11 @@ All planned test cases were executed successfully for the defined testing scope.
 
 ### Final Result
 
-**28 Test Cases → 28 Passed → 0 Failed → 0 Blocked → 0 Confirmed Defects**
+**28 Test Cases → 28 Passed → 0 Failed → 0 Blocked → 0 Defects Identified**
 
 Testing was considered complete for this test cycle.
+
+No defects were identified within the defined testing scope.
 
 ---
 
@@ -197,6 +215,7 @@ Testing was considered complete for this test cycle.
 - Positive Testing
 - Negative Testing
 - Input Validation
+- End-to-End Testing
 - Test Execution
 - Test Result Documentation
 - Test Closure
@@ -206,7 +225,7 @@ Testing was considered complete for this test cycle.
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```text
 saucedemo-manual-testing/
